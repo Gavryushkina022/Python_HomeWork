@@ -141,7 +141,6 @@ def main_menu():
             print(read_file(file_contacts))
         elif user_choice == '4':
             update_record(file_contacts)
-            print()
         elif user_choice == '5':
             remove_record(file_contacts)
         elif user_choice == '0':
